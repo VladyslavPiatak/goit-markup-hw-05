@@ -17,6 +17,17 @@ body {
    color: var(--text);
 }
 
+input,
+textarea,
+button {
+   font-family: inherit;
+   line-height: inherit;
+}
+
+textarea {
+   resize: none;
+}
+
 p,h1,h2,h3,h4,h5,h6 {
    margin-top: 0;
    margin-bottom: 0;
@@ -31,6 +42,7 @@ ul {
 img{
    display: block;
 }
+
 
 .container {
    max-width: 1158px; 
@@ -576,6 +588,35 @@ img{
    transition: fill var(--transition);
 }
 
+
+
+.form {
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   padding: 72px 24px 32px;
+   max-width: 300px;
+}
+
+.form-button {
+   align-self: flex-start;
+}
+
+.form-input {
+   padding: 4px;
+   color: #212121;
+   border-radius: 4px;
+}
+
+.form-input::placeholder {
+   color: #616161;
+}
+
+.form-label {
+   display: flex;
+   flex-direction: column;
+   transition: color var(--transition);
+}
 
 
 
