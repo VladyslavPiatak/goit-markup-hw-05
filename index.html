@@ -536,6 +536,24 @@
             </li>
           </ul>
         </div>
+
+        <div class="subscribe">
+          <p class="title-social">Subscribe</p>
+          <div class="box-subscribe">
+            <input
+              class="footer-input"
+              type="email"
+              name="user-email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="btn-subscribe">
+              Subscribe
+              <svg class="icon-subscribe" width="24" height="24">
+                <use href="./images/icons.svg#icon-frame"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
     <div class="box-modal is-hidden" data-modal>
@@ -607,14 +625,19 @@
 
             <label class="form-checkbox">
               <div class="box-checkbox">
-                <input type="checkbox" />
-                <svg class="icon-checkbox" width="16" height="16">
-                  <use href="./images/icons.svg#icon-click"></use>
-                </svg>
-                <span
-                  >I accept the terms and conditions of the
-                  <a href="" c>Privacy Policy</a></span
-                >
+                <input
+                  type="checkbox"
+                  name="policy"
+                  class="input-check visually-hidden"
+                  value="true"
+                />
+                <span>
+                  <svg class="icon-checkbox" width="16" height="16">
+                    <use href="./images/icons.svg#icon-click"></use>
+                  </svg>
+                </span>
+                I accept the terms and conditions of the
+                <a href="">Privacy Policy</a>
               </div>
             </label>
 
