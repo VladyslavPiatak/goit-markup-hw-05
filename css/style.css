@@ -533,7 +533,10 @@ img{
 
 .subscribe {}
 
-.title-social {}
+.form-footer {
+   display: flex;
+   gap: 24px;
+}
 
 .box-subscribe {
    display: flex;
