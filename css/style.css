@@ -556,7 +556,7 @@ img{
 }
 
 .footer-input::placeholder {
-   color: var(--white, #FFF);
+   color:  #ffffff;
    font-size: 12px;
    font-family: Roboto;
    line-height: 2;
