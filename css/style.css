@@ -725,12 +725,15 @@ img{
 .icon-form-modal {
    position: absolute;
    left: 16px;
-   top: 11px;
-   bottom: 11px;
+   top: 55%;
+   transform: translateY(-50%);
 }
 
 .form-checkbox {
    cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .box-checkbox {
