@@ -549,6 +549,7 @@ img{
    border-radius: 4px;
    border: 1px solid  #ffffff;
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+   color: #ffffff;
 }
 
 .footer-input::placeholder {
@@ -581,9 +582,10 @@ img{
    background-color: var(--color-ocean);
 }
 
-.icon-subscribe {
+.icon-subscribe  {
    margin-left: 16px;
-   fill: #ffffff;
+   fill: currentColor;
+   stroke: currentColor;
 }
 
 
@@ -774,7 +776,7 @@ img{
    font-size: 16px;
    border-radius: 4px;
    border: none;
-   background: var(--accent, #4D5AE5);
+   background-color: var(--accent, #4D5AE5);
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);   
    color: #ffffff;
    text-align: center;
@@ -782,6 +784,12 @@ img{
    cursor: pointer;
    padding: 16px 64px;
    display: block;
+   transition: background-color var(--transition);
+}
+
+.form-button:hover,
+.form-button:focus {
+   background-color: var(--color-ocean);
 }
 
 
