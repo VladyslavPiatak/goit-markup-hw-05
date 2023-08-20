@@ -750,14 +750,6 @@ img{
    transition: fill var(--transition);
 }
 
-.form-checkbox {
-   cursor: pointer;
-   display: block;
-   /* align-items: center;
-   justify-content: center; */
-   line-height: 1.17;
-}
-
 .box-checkbox {
    color: #8E8F99;
    font-size: 12px;
@@ -770,7 +762,17 @@ img{
    margin-bottom: 24px;
 }
 
-.box-checkbox span {
+.form-checkbox {
+   cursor: pointer;
+   display: block;
+   /* align-items: center;
+   justify-content: center; */
+   line-height: 1.17;
+}
+
+
+
+.form-checkbox span {
    width: 16px;
    height: 16px;
    border-radius: 2px;
