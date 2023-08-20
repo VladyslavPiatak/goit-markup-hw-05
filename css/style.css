@@ -785,7 +785,7 @@ img{
    display: inline-flex;
 }
 
-.input-check:checked + span {
+.input-check:checked + label>span {
    background-color: var(--color-ocean);
    fill: var(--color-cloud);
    border: none;
