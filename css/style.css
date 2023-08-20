@@ -785,11 +785,12 @@ img{
    display: inline-flex;
 }
 
-.input-check:checked + .icon-check {
+.input-check:checked + span {
    background-color: var(--color-ocean);
    fill: var(--color-cloud);
    border: none;
 }
+
 .form-checkbox a {
    margin-left: 4px;
    color: var(--accent);
