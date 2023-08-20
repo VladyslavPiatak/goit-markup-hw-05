@@ -686,8 +686,8 @@ img{
 .modal-box{
    margin-bottom: 8px;
 }
-.modal-box:last-child{
-   margin-bottom: 100px;
+.commen{
+   margin-bottom: 16px;
 }
 
 .form-label {
