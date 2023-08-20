@@ -720,7 +720,7 @@ img{
    font-size: 12px;
    line-height: 1.17;
    letter-spacing: 0.48px;
-   color: var(--color-light-slate);
+   color: rgba(46, 47, 66, 0.4);
 }
 
 .form-input::placeholder {
