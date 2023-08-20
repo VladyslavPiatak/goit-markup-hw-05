@@ -697,6 +697,7 @@ img{
    line-height: 1.17;
    letter-spacing: 0.48px;
    color: var(--color-light-slate);
+
 }
 
 .form-input {
@@ -707,7 +708,7 @@ img{
    border-radius: 4px;
    border: 1px solid rgba(46, 47, 66, 0.40);
    background-color: transparent;
-   transition: border-color var(--transition), fill var(--transition);
+   transition: border-color var(--transition);
    outline: transparent;
 }
 
