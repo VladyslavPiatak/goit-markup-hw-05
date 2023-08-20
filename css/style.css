@@ -772,13 +772,12 @@ img{
 
 
 
-.icon-check span {
+.icon-check {
    width: 16px;
    height: 16px;
    border-radius: 2px;
    border: 1px solid rgba(46, 47, 66, 0.40);
    margin-right: 8px;
-   display: flex;
    align-items: center;
    justify-content: center;
    fill: transparent;
@@ -786,7 +785,7 @@ img{
    display: inline-flex;
 }
 
-.input-check:checked + span {
+.input-check:checked + .icon-check {
    background-color: var(--color-ocean);
    fill: #ffffff;
    border: none;
