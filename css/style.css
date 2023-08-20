@@ -738,8 +738,9 @@ img{
 .icon-form-modal {
    position: absolute;
    left: 16px;
-   top: 55%;
+   top: 50%;
    transform: translateY(-50%);
+   transition: fill var(--transition);
 }
 
 .form-checkbox {
