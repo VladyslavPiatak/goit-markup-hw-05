@@ -627,21 +627,23 @@
           </div>
 
           <div class="box-checkbox">
-            <label class="form-checkbox">
-              <input
-                type="checkbox"
-                name="policy"
-                class="input-check visually-hidden"
-                value="true"
-              />
-              <span>
-                <svg class="icon-checkbox" width="16" height="16">
-                  <use href="./images/icons.svg#icon-click"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the
-              <a href="">Privacy Policy</a>
-            </label>
+            <input
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              class="input-check visually-hidden"
+              value="true"
+            />
+            <span>
+              <svg class="icon-checkbox" width="16" height="16">
+                <use href="./images/icons.svg#icon-click"></use>
+              </svg>
+            </span>
+
+            <label class="form-checkbox" for="user-privacy"
+              >I accept the terms and conditions of the
+              <a href="">Privacy Policy</a></label
+            >
           </div>
 
           <button class="form-button" type="submit">Send</button>
