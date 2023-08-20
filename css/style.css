@@ -664,7 +664,6 @@ img{
 .form {
    display: flex;
    flex-direction: column;
-   gap: 12px;
    max-width: 100%;
 }
 
@@ -686,6 +685,9 @@ img{
 
 .modal-box{
    margin-bottom: 8px;
+}
+.modal-box:last-child{
+   margin-bottom: 100px;
 }
 
 .form-label {
