@@ -790,7 +790,7 @@ img{
    fill: #ffffff;
    border: none;
 }
-.box-checkbox a {
+.form-checkbox a {
    margin-left: 4px;
    color: var(--accent);
 }
