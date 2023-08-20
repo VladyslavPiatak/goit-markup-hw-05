@@ -568,7 +568,7 @@
         </button>
         <p class="group-title">Leave your contacts and we will call you back</p>
         <form class="form" name="form-contacts">
-          <div class="modal-form-box">
+          <div class="modal-box-name">
             <label class="form-label" for="user-name"> Name </label>
             <div class="box-input">
               <input
@@ -582,7 +582,9 @@
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
+          </div>
 
+          <div class="modal-box-phone">
             <label class="form-label" for="user_phone_number"> Phone </label>
             <div class="box-input">
               <input
@@ -596,7 +598,9 @@
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
+          </div>
 
+          <div class="modal-box-email">
             <label class="form-label" for="user_email"> Email </label>
             <div class="box-input">
               <input
@@ -610,7 +614,9 @@
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
+          </div>
 
+          <div class="modal-box-email">
             <label class="form-label" for="description"> Comment </label>
             <textarea
               class="form-input input-textarea"
@@ -618,27 +624,27 @@
               id="description"
               placeholder="Text input"
             ></textarea>
-
-            <div class="box-checkbox">
-              <label class="form-checkbox">
-                <input
-                  type="checkbox"
-                  name="policy"
-                  class="input-check visually-hidden"
-                  value="true"
-                />
-                <span>
-                  <svg class="icon-checkbox" width="16" height="16">
-                    <use href="./images/icons.svg#icon-click"></use>
-                  </svg>
-                </span>
-                I accept the terms and conditions of the
-                <a href="">Privacy Policy</a>
-              </label>
-            </div>
-
-            <button class="form-button" type="submit">Send</button>
           </div>
+
+          <div class="box-checkbox">
+            <label class="form-checkbox">
+              <input
+                type="checkbox"
+                name="policy"
+                class="input-check visually-hidden"
+                value="true"
+              />
+              <span>
+                <svg class="icon-checkbox" width="16" height="16">
+                  <use href="./images/icons.svg#icon-click"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="">Privacy Policy</a>
+            </label>
+          </div>
+
+          <button class="form-button" type="submit">Send</button>
         </form>
       </div>
     </div>
