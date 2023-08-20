@@ -717,6 +717,10 @@ img{
 .input-textarea {
    height: 120px;
    padding: 8px 16px;
+   font-size: 12px;
+   line-height: 1.17;
+   letter-spacing: 0.48px;
+   color: var(--color-light-slate);
 }
 
 .form-input::placeholder {
